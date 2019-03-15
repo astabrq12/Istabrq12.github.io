@@ -1,0 +1,37 @@
+import turtle
+v = turtle.Turtle()
+v = turtle.Turtle(shape="turtle")
+v.pensize(10)
+v.circle(50)
+v.color("blue")
+v.pensize(10)
+
+v.penup()
+v.setposition(-120, 0)
+v.pendown()
+v.circle(50)
+v.color("green")
+v.pensize(10)
+
+v.penup()
+v.setposition(60, 60)
+v.pendown()
+v.circle(50)
+v.color("yellow")
+v.pensize(10)
+
+v.penup()
+v.setposition(-60, 60)
+v.pendown()
+v.circle(50)
+v.color("red")
+v.pensize(10)
+
+v.penup()
+v.setposition(-180, 60)
+v.pendown()
+v.circle(50)
+v.color("black")
+v.pensize(10)
+
+turtle.done()
